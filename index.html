@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Analisis Sistem Café | OOAD</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+        <div class="grid"></div>
+    </div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="brand">
+            <div class="brand-icon">O</div>
+
+            <div>
+                <strong>OOAD</strong>
+                <span>CAFÉ SYSTEM</span>
+            </div>
+        </div>
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+        <nav id="navMenu">
+            <a href="#home">Home</a>
+            <a href="#wawancara">Wawancara</a>
+            <a href="#analisis">Analisis</a>
+            <a href="#usecase">Use Case</a>
+            <a href="#classdiagram">Class Diagram</a>
+            <a href="#kesimpulan">Kesimpulan</a>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero section" id="home">
+
+            <div class="hero-content">
+
+                <div class="badge">
+                    OBJECT ORIENTED ANALYSIS & DESIGN
+                </div>
+
+                <h1>
+                    Analisis Sistem
+                    <span>Café</span>
+                </h1>
+
+                <p>
+                    Studi kasus sederhana mengenai sistem pemesanan,
+                    pembayaran, stok, dan laporan pada sebuah café.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#wawancara" class="btn primary">
+                        Mulai Lihat
+                    </a>
+
+                    <a href="#usecase" class="btn secondary">
+                        Lihat Use Case
+                    </a>
+                </div>
+
+                <div class="creator">
+                    <div class="creator-line"></div>
+                    <span>Dibuat oleh</span>
+                    <strong>IKIKEY29</strong>
+                </div>
+
+            </div>
+
+
+            <div class="hero-card">
+
+                <div class="card-top">
+                    <span class="status-dot"></span>
+                    SYSTEM ANALYSIS
+                </div>
+
+                <div class="coffee-icon">
+                    ☕
+                </div>
+
+                <h3>
+                    Café Information System
+                </h3>
+
+                <p>
+                    Pemesanan • Pembayaran • Stok • Laporan
+                </p>
+
+                <div class="mini-stats">
+
+                    <div>
+                        <strong>05</strong>
+                        <span>Aktor</span>
+                    </div>
+
+                    <div>
+                        <strong>05</strong>
+                        <span>Use Case</span>
+                    </div>
+
+                    <div>
+                        <strong>06</strong>
+                        <span>Class</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- WAWANCARA -->
+        <section class="section" id="wawancara">
+
+            <div class="section-heading">
+
+                <div class="section-number">
+                    01
+                </div>
+
+                <div>
+                    <span class="eyebrow">
+                        HASIL WAWANCARA
+                    </span>
+
+                    <h2>
+                        Pertanyaan & Jawaban
+                    </h2>
+
+                    <p>
+                        Contoh hasil wawancara mengenai sistem yang digunakan
+                        dalam kegiatan operasional café.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="interview-grid">
+
+                <article class="question-card">
+                    <span class="question-number">01</span>
+
+                    <h3>Café ini usaha di bidang apa?</h3>
+
+                    <div class="question">
+                        “Café ini biasanya menyediakan apa saja?”
+                    </div>
+
+                    <div class="answer">
+                        <span>Jawaban Narasumber</span>
+
+                        <p>
+                            “Di sini kami jual makanan dan minuman.
+                            Ada makanan seperti nasi goreng, mie, burger,
+                            sama makanan ringan. Kalau minuman ada kopi,
+                            jus, milkshake, dan beberapa minuman lainnya.”
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="question-card">
+                    <span class="question-number">02</span>
+
+                    <h3>Bagaimana proses pelanggan memesan?</h3>
+
+                    <div class="question">
+                        “Kalau ada pelanggan datang, biasanya proses
+                        pesan makanannya bagaimana?”
+                    </div>
+
+                    <div class="answer">
+                        <span>Jawaban Narasumber</span>
+
+                        <p>
+                            “Biasanya pelanggan datang terus pilih meja.
+                            Nanti waiter kasih menu, pelanggan pilih makanan
+                            atau minuman. Setelah itu waiter mencatat pesanannya
+                            dan kasih ke bagian dapur atau bar.”
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="question-card">
+                    <span class="question-number">03</span>
+
+                    <h3>Pesanannya dicatat pakai apa?</h3>
+
+                    <div class="question">
+                        “Untuk mencatat pesanan sekarang sudah pakai aplikasi
+                        atau masih manual?”
+                    </div>
+
+                    <div class="answer">
+                        <span>Jawaban Narasumber</span>
+
+                        <p>
+                            “Masih ada yang manual. Waiter biasanya mencatat
+                            pesanan dulu, terus catatannya diberikan ke bagian
+                            dapur.”
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="question-card">
+                    <span class="question-number">04</span>
+
+                    <h3>Siapa saja yang terlibat?</h3>
+
+                    <div class="question">
+                        “Kalau dari pelanggan pesan sampai selesai bayar,
+                        siapa saja yang terlibat?”
+                    </div>
+
+                    <div class="answer">
+                        <span>Jawaban Narasumber</span>
+
+                        <p>
+                            “Biasanya ada pelanggan, waiter, bagian dapur,
+                            sama kasir. Pemilik juga ikut memantau terutama
+                            untuk melihat penjualan.”
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="question-card">
+                    <span class="question-number">05</span>
+
+                    <h3>Bagaimana cara menghitung pembayaran?</h3>
+
+                    <div class="question">
+                        “Kalau pelanggan sudah selesai makan, kasir
+                        menghitung totalnya bagaimana?”
+                    </div>
+
+                    <div class="answer">
+                        <span>Jawaban Narasumber</span>
+
+                        <p>
+                            “Kasir melihat catatan pesanan, terus dihitung
+                            jumlah makanan dan minumannya. Setelah itu
+                            totalnya disampaikan ke pelanggan.”
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="question-card">
+                    <span class="question-number">06</span>
+
+                    <h3>Pernah ada kesalahan pesanan?</h3>
+
+                    <div class="question">
+                        “Selama menggunakan cara seperti ini, pernah ada
+                        pesanan yang salah atau tertukar?”
+                    </div>
+
+                    <div class="answer">
+                        <span>Jawaban Narasumber</span>
+
+                        <p>
+                            “Pernah, terutama kalau café sedang ramai.
+                            Kadang ada pesanan yang tertukar atau jumlahnya
+                            tidak sesuai dengan yang dipesan.”
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="question-card">
+                    <span class="question-number">07</span>
+
+                    <h3>Bagaimana mengatur menu?</h3>
+
+                    <div class="question">
+                        “Kalau ada menu baru atau harga menu berubah,
+                        biasanya bagaimana cara mengubahnya?”
+                    </div>
+
+                    <div class="answer">
+                        <span>Jawaban Narasumber</span>
+
+                        <p>
+                            “Biasanya pemilik kasih tahu ke karyawan atau kasir.
+                            Setelah itu menu dan harganya disesuaikan.”
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="question-card">
+                    <span class="question-number">08</span>
+
+                    <h3>Bagaimana mengecek stok?</h3>
+
+                    <div class="question">
+                        “Kalau untuk stok bahan atau menu yang tersedia,
+                        cara ngeceknya bagaimana?”
+                    </div>
+
+                    <div class="answer">
+                        <span>Jawaban Narasumber</span>
+
+                        <p>
+                            “Masih dicek secara manual. Jadi karyawan biasanya
+                            lihat stok yang ada. Kalau bahan habis, baru
+                            dikasih tahu ke kasir atau pemilik.”
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="question-card">
+                    <span class="question-number">09</span>
+
+                    <h3>Bagaimana membuat laporan penjualan?</h3>
+
+                    <div class="question">
+                        “Kalau pemilik mau melihat hasil penjualan,
+                        biasanya bagaimana?”
+                    </div>
+
+                    <div class="answer">
+                        <span>Jawaban Narasumber</span>
+
+                        <p>
+                            “Kasir biasanya mencatat transaksi, kemudian
+                            direkap. Dari catatan itu pemilik bisa melihat
+                            hasil penjualannya.”
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="question-card">
+                    <span class="question-number">10</span>
+
+                    <h3>Apa masalah yang paling sering terjadi?</h3>
+
+                    <div class="question">
+                        “Menurut Bapak/Ibu, masalah yang paling sering terjadi
+                        dari sistem sekarang apa?”
+                    </div>
+
+                    <div class="answer">
+                        <span>Jawaban Narasumber</span>
+
+                        <p>
+                            “Kalau sedang ramai biasanya agak susah.
+                            Pesanan bisa salah atau tertukar. Selain itu
+                            pencatatan stok dan laporan juga masih harus
+                            dilakukan manual.”
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="question-card">
+                    <span class="question-number">11</span>
+
+                    <h3>Kalau dibuat sistem baru, apa yang dibutuhkan?</h3>
+
+                    <div class="question">
+                        “Kalau dibuat sistem yang lebih terkomputerisasi,
+                        fitur apa yang paling membantu?”
+                    </div>
+
+                    <div class="answer">
+                        <span>Jawaban Narasumber</span>
+
+                        <p>
+                            “Yang penting bisa mencatat pesanan, mengatur menu,
+                            menghitung pembayaran, mencatat stok, dan membuat
+                            laporan penjualan.”
+                        </p>
+                    </div>
+                </article>
+
+
+                <article class="question-card">
+                    <span class="question-number">12</span>
+
+                    <h3>Siapa yang akan menggunakan sistem?</h3>
+
+                    <div class="question">
+                        “Kalau sistem itu dibuat, kira-kira siapa saja
+                        yang akan menggunakannya?”
+                    </div>
+
+                    <div class="answer">
+                        <span>Jawaban Narasumber</span>
+
+                        <p>
+                            “Waiter untuk memasukkan pesanan, kasir untuk
+                            pembayaran, admin untuk mengatur menu dan stok,
+                            kemudian pemilik untuk melihat laporan.”
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ANALISIS -->
+        <section class="section analysis-section" id="analisis">
+
+            <div class="section-heading">
+
+                <div class="section-number">
+                    02
+                </div>
+
+                <div>
+                    <span class="eyebrow">
+                        ANALISIS SISTEM
+                    </span>
+
+                    <h2>
+                        Masalah & Solusi
+                    </h2>
+                </div>
+
+            </div>
+
+
+            <div class="analysis-layout">
+
+                <div class="problem-box">
+
+                    <span class="label red">
+                        MASALAH YANG DITEMUKAN
+                    </span>
+
+                    <h3>
+                        Proses masih banyak dilakukan secara manual.
+                    </h3>
+
+                    <p>
+                        Ketika café sedang ramai, cara manual dapat membuat
+                        pesanan salah atau tertukar. Pencatatan stok dan
+                        laporan juga membutuhkan waktu lebih lama.
+                    </p>
+
+                    <div class="problem-list">
+
+                        <div>
+                            <span>01</span>
+                            Kesalahan pencatatan pesanan
+                        </div>
+
+                        <div>
+                            <span>02</span>
+                            Pesanan bisa tertukar
+                        </div>
+
+                        <div>
+                            <span>03</span>
+                            Pengecekan stok masih manual
+                        </div>
+
+                        <div>
+                            <span>04</span>
+                            Laporan membutuhkan waktu
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="solution-box">
+
+                    <span class="label green">
+                        SOLUSI YANG DIUSULKAN
+                    </span>
+
+                    <h3>
+                        Sistem Informasi Pemesanan & Transaksi Café
+                    </h3>
+
+                    <p>
+                        Sistem dirancang untuk membantu karyawan mengatur
+                        pesanan, menu, pembayaran, stok, dan laporan penjualan.
+                    </p>
+
+                    <div class="solution-features">
+
+                        <div>
+                            <strong>01</strong>
+                            <span>Pemesanan</span>
+                        </div>
+
+                        <div>
+                            <strong>02</strong>
+                            <span>Menu</span>
+                        </div>
+
+                        <div>
+                            <strong>03</strong>
+                            <span>Pembayaran</span>
+                        </div>
+
+                        <div>
+                            <strong>04</strong>
+                            <span>Stok</span>
+                        </div>
+
+                        <div>
+                            <strong>05</strong>
+                            <span>Laporan</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- USE CASE -->
+        <section class="section" id="usecase">
+
+            <div class="section-heading">
+
+                <div class="section-number">
+                    03
+                </div>
+
+                <div>
+                    <span class="eyebrow">
+                        OBJECT ORIENTED ANALYSIS
+                    </span>
+
+                    <h2>
+                        Use Case
+                    </h2>
+
+                    <p>
+                        Gambaran sederhana hubungan antara pengguna dengan
+                        sistem café.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="usecase-container">
+
+                <div class="system-title">
+                    SISTEM INFORMASI CAFÉ
+                </div>
+
+
+                <div class="usecase-grid">
+
+                    <div class="actor-column">
+
+                        <h4>AKTOR</h4>
+
+                        <div class="actor">
+                            <span>♙</span>
+                            Pelanggan
+                        </div>
+
+                        <div class="actor">
+                            <span>♙</span>
+                            Waiter
+                        </div>
+
+                        <div class="actor">
+                            <span>♙</span>
+                            Kasir
+                        </div>
+
+                        <div class="actor">
+                            <span>♙</span>
+                            Admin
+                        </div>
+
+                        <div class="actor">
+                            <span>♙</span>
+                            Owner
+                        </div>
+
+                    </div>
+
+
+                    <div class="usecase-column">
+
+                        <h4>USE CASE</h4>
+
+                        <div class="usecase-list">
+
+                            <div class="usecase-item">
+                                <span>01</span>
+                                Lihat Menu
+                            </div>
+
+                            <div class="usecase-item">
+                                <span>02</span>
+                                Pesan Menu
+                            </div>
+
+                            <div class="usecase-item">
+                                <span>03</span>
+                                Input Pesanan
+                            </div>
+
+                            <div class="usecase-item">
+                                <span>04</span>
+                                Lihat Status Pesanan
+                            </div>
+
+                            <div class="usecase-item">
+                                <span>05</span>
+                                Proses Pembayaran
+                            </div>
+
+                            <div class="usecase-item">
+                                <span>06</span>
+                                Cetak Struk
+                            </div>
+
+                            <div class="usecase-item">
+                                <span>07</span>
+                                Kelola Menu
+                            </div>
+
+                            <div class="usecase-item">
+                                <span>08</span>
+                                Kelola Stok
+                            </div>
+
+                            <div class="usecase-item">
+                                <span>09</span>
+                                Lihat Laporan
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="usecase-note">
+
+                    <strong>Penjelasan singkat:</strong>
+
+                    <p>
+                        Use case utama pada sistem ini adalah pemesanan,
+                        pengelolaan menu, pembayaran, pengelolaan stok,
+                        dan laporan penjualan.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CLASS DIAGRAM -->
+        <section class="section" id="classdiagram">
+
+            <div class="section-heading">
+
+                <div class="section-number">
+                    04
+                </div>
+
+                <div>
+                    <span class="eyebrow">
+                        OBJECT ORIENTED DESIGN
+                    </span>
+
+                    <h2>
+                        Class Diagram
+                    </h2>
+
+                    <p>
+                        Struktur class utama yang digunakan dalam sistem café.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="diagram-wrapper">
+
+                <div class="class-diagram">
+
+                    <!-- PELANGGAN -->
+                    <div class="uml-card pelanggan">
+
+                        <div class="uml-title">
+                            Pelanggan
+                        </div>
+
+                        <div class="uml-content">
+                            <p>id_pelanggan</p>
+                            <p>nama</p>
+                            <p>no_hp</p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- PESANAN -->
+                    <div class="uml-card pesanan">
+
+                        <div class="uml-title">
+                            Pesanan
+                        </div>
+
+                        <div class="uml-content">
+                            <p>id_pesanan</p>
+                            <p>tanggal</p>
+                            <p>nomor_meja</p>
+                            <p>status</p>
+                            <p>total</p>
+                        </div>
+
+                        <div class="uml-method">
+                            <p>+ buatPesanan()</p>
+                            <p>+ hitungTotal()</p>
+                            <p>+ ubahStatus()</p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- DETAIL -->
+                    <div class="uml-card detail">
+
+                        <div class="uml-title">
+                            DetailPesanan
+                        </div>
+
+                        <div class="uml-content">
+                            <p>id_detail</p>
+                            <p>jumlah</p>
+                            <p>harga</p>
+                            <p>subtotal</p>
+                        </div>
+
+                        <div class="uml-method">
+                            <p>+ hitungSubtotal()</p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- MENU -->
+                    <div class="uml-card menu">
+
+                        <div class="uml-title">
+                            Menu
+                        </div>
+
+                        <div class="uml-content">
+                            <p>id_menu</p>
+                            <p>nama_menu</p>
+                            <p>harga</p>
+                            <p>kategori</p>
+                            <p>stok</p>
+                            <p>status</p>
+                        </div>
+
+                        <div class="uml-method">
+                            <p>+ tambahMenu()</p>
+                            <p>+ ubahMenu()</p>
+                            <p>+ hapusMenu()</p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- PEMBAYARAN -->
+                    <div class="uml-card pembayaran">
+
+                        <div class="uml-title">
+                            Pembayaran
+                        </div>
+
+                        <div class="uml-content">
+                            <p>id_pembayaran</p>
+                            <p>tanggal</p>
+                            <p>total_bayar</p>
+                            <p>metode</p>
+                            <p>kembalian</p>
+                        </div>
+
+                        <div class="uml-method">
+                            <p>+ prosesPembayaran()</p>
+                            <p>+ hitungKembalian()</p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- MEJA -->
+                    <div class="uml-card meja">
+
+                        <div class="uml-title">
+                            Meja
+                        </div>
+
+                        <div class="uml-content">
+                            <p>id_meja</p>
+                            <p>nomor_meja</p>
+                            <p>status</p>
+                        </div>
+
+                        <div class="uml-method">
+                            <p>+ ubahStatus()</p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- SVG RELATIONS -->
+                    <svg class="relations" viewBox="0 0 1100 650">
+
+                        <line x1="180" y1="105" x2="390" y2="105"/>
+                        <text x="270" y="95">1</text>
+                        <text x="350" y="95">*</text>
+
+                        <line x1="550" y1="190" x2="550" y2="290"/>
+                        <text x="565" y="235">1</text>
+                        <text x="565" y="275">*</text>
+
+                        <line x1="700" y1="350" x2="850" y2="350"/>
+                        <text x="730" y="340">*</text>
+                        <text x="825" y="340">1</text>
+
+                        <line x1="700" y1="460" x2="850" y2="460"/>
+                        <text x="730" y="450">1</text>
+                        <text x="825" y="450">1</text>
+
+                    </svg>
+
+                </div>
+
+            </div>
+
+
+            <div class="class-explanation">
+
+                <div class="explanation-card">
+
+                    <span>01</span>
+
+                    <h3>Menu</h3>
+
+                    <p>
+                        Menyimpan informasi makanan dan minuman yang tersedia
+                        di café.
+                    </p>
+
+                </div>
+
+
+                <div class="explanation-card">
+
+                    <span>02</span>
+
+                    <h3>Pesanan</h3>
+
+                    <p>
+                        Menyimpan informasi pesanan pelanggan seperti tanggal,
+                        meja, status dan total.
+                    </p>
+
+                </div>
+
+
+                <div class="explanation-card">
+
+                    <span>03</span>
+
+                    <h3>Detail Pesanan</h3>
+
+                    <p>
+                        Menyimpan detail menu yang dipesan beserta jumlah,
+                        harga dan subtotal.
+                    </p>
+
+                </div>
+
+
+                <div class="explanation-card">
+
+                    <span>04</span>
+
+                    <h3>Pembayaran</h3>
+
+                    <p>
+                        Menyimpan informasi pembayaran dan menghitung
+                        kembalian pelanggan.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- KESIMPULAN -->
+        <section class="section conclusion" id="kesimpulan">
+
+            <div class="conclusion-card">
+
+                <div class="conclusion-number">
+                    05
+                </div>
+
+                <span class="eyebrow">
+                    KESIMPULAN
+                </span>
+
+                <h2>
+                    Sistem yang lebih rapi,
+                    pekerjaan yang lebih mudah.
+                </h2>
+
+                <p>
+                    Dari hasil wawancara yang kami lakukan, kami menemukan
+                    bahwa beberapa proses di café masih dilakukan secara
+                    manual, terutama dalam pencatatan pesanan, pengecekan
+                    stok, dan pembuatan laporan.
+                </p>
+
+                <p>
+                    Cara tersebut sebenarnya masih bisa digunakan, tetapi
+                    ketika café sedang ramai bisa menyebabkan kesalahan
+                    atau membuat pekerjaan menjadi lebih lama.
+                </p>
+
+                <p>
+                    Karena itu, kami mengusulkan sistem informasi café yang
+                    bisa membantu karyawan dalam mencatat pesanan, mengelola
+                    menu dan stok, melakukan pembayaran, serta membuat
+                    laporan penjualan.
+                </p>
+
+                <div class="final-message">
+                    Dengan sistem yang lebih teratur, pekerjaan café
+                    diharapkan menjadi lebih mudah, cepat, dan mengurangi
+                    kesalahan.
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-logo">
+            IKIKEY29
+        </div>
+
+        <p>
+            Object Oriented Analysis & Design
+        </p>
+
+        <span>
+            © 2026 — Dibuat oleh IKIKEY29
+        </span>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
